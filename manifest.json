@@ -1,6 +1,6 @@
 {
   "manifest_version": 3,
-  "name": "Move Tab to Window",
+  "name": "Window Switcher",
   "version": "1.0",
   "description": "Use keyboard shortcuts to move and manage tabs and windows.",
   "permissions": [
