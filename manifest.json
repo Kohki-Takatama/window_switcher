@@ -12,25 +12,25 @@
   "commands": {
     "move_tab_to_new_window": {
       "suggested_key": {
-        "default": "MacCtrl+Down"
+        "default": "Alt+Down"
       },
       "description": "Move the current tab to a new window"
     },
     "move_tab_to_other_window": {
       "suggested_key": {
-        "default": "MacCtrl+Up"
+        "default": "Alt+Up"
       },
       "description": "Move the current tab to another existing window"
     },
     "focus_next_tab": {
       "suggested_key": {
-        "default": "MacCtrl+Right"
+        "default": "Alt+Right"
       },
       "description": "Move focus to the next tab"
     },
     "focus_next_window": {
       "suggested_key": {
-        "default": "MacCtrl+Left"
+        "default": "Alt+Left"
       },
       "description": "Move focus to the next window"
     }
