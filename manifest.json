@@ -1,7 +1,7 @@
 {
   "manifest_version": 3,
   "name": "Window Switcher",
-  "version": "1.0",
+  "version": "1.0.1",
   "description": "Use keyboard shortcuts to move and manage tabs and windows.",
   "background": {
     "service_worker": "background.js"
@@ -14,25 +14,29 @@
   "commands": {
     "move_tab_to_new_window": {
       "suggested_key": {
-        "default": "Alt+Down"
+        "default": "Alt+Down",
+        "mac": "Alt+Down"
       },
       "description": "Move the current tab to a new window"
     },
     "move_tab_to_other_window": {
       "suggested_key": {
-        "default": "Alt+Up"
+        "default": "Alt+Up",
+        "mac": "Alt+Up"
       },
       "description": "Move the current tab to another existing window"
     },
     "focus_next_tab": {
       "suggested_key": {
-        "default": "Alt+Right"
+        "default": "Alt+Right",
+        "mac": "Alt+Right"
       },
       "description": "Move focus to the next tab"
     },
     "focus_next_window": {
       "suggested_key": {
-        "default": "Alt+Left"
+        "default": "Alt+Left",
+        "mac": "Alt+Left"
       },
       "description": "Move focus to the next window"
     }
